@@ -16,6 +16,7 @@ public class Employee {
             this.age = age;
     }
 
+
     public static void main(String[] args) {
         Employee[] persArray = new Employee[5];
         persArray[0] = new Employee("Petrov Igor", "doctor", "petrovivan@gmail.com", "877892546", 90000, 56);
@@ -26,7 +27,6 @@ public class Employee {
         for (Employee employee : persArray)
             System.out.println(employee);
     }
-
 
     @Override
     public String toString(){
